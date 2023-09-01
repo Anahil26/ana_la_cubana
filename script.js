@@ -2,8 +2,9 @@ let eje= document.getElementById('real');
 let opt= document.querySelector('select');
 let resul= document.getElementById('resultado');
 
-eje.addEventListener('click', eleccion);
+//eje.addEventListener('click', eleccion);
 
+let opcion=opcion.value;
 function eleccion(){
     let n1 = parseFloat(document.getElementById('num1').value);
     let n2 = parseFloat(document.getElementById('num2').value);
